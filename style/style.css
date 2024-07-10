@@ -275,28 +275,37 @@ margin: 0 auto;
 }
 /* end third page */
 /* start fourth page */
-.fourth-section{
-    position: static;
+.my-target{
+   
    width: 1140px;
    height: 463px;
    margin: 0 auto;
    border: 2px solid black;
-   margin-top: 100px;
+   margin-top: 10px; 
+   display: flex;
+   justify-content: space-between;
+  
 
-   
-   
-}
-.fourth-title{
-    display: flex;
-   flex-direction: column;
-   justify-content: center;
-   align-items: center;
 }
 .fourth-subtitle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin-top: 0px;
     font-size: 32px;
     font-weight: 800;
     line-height: 37px;
+}
+.fourth-title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ 
+}
+.fourth-title p{
+    margin-top: 0 ;
+    margin right: 100px;
 }
 .fourth-paragraph{
     width: 852px;
@@ -304,9 +313,97 @@ margin: 0 auto;
    color: rgb(13, 19, 33);
    font-size: 16px;
    margin-top: 2px;
+  
    display: flex;
    justify-content: center;
-   text-align: center;
+   align-items: center;
+   
+
 }
 
 
+.html-background{
+    width: 350px;
+    height: 320px;
+    margin-left: 20px;
+    margin-top: 2px;
+    background-color: rgba(255, 76, 30, 0.05);
+}
+.html-background img{
+    width: 100px;
+    height: 100px;
+    margin: 20px 30px ;
+}
+.fourth-heading{
+    color: rgb(13, 19, 33);
+     font-size: 30px;
+     margin-left: 50px;
+     margin-top:5px;
+}
+.html-paragraph{
+    width: 284px;
+    height: 52px;
+    margin-left: 50px;
+    margin-top: 0px;
+}
+.learn{
+    text-decoration: underline;
+    margin-left: 50px;
+    margin-top: 0px;
+}
+
+    
+.fourth-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+.css{
+    background-color: rgba(0, 76, 232, 0.05);
+    width: 350px;
+    height: 320px;
+    margin-left: 20px;
+    margin-top: 2px;
+    
+}
+.css-paragraph{
+    margin-left: 40px;
+}
+.css-background img{
+    width: 100px;
+    height: 100px;
+    margin: 20px 30px ;
+}
+.css-heading{
+    margin-left: 40px;
+}
+
+.css-learn{
+    margin-left: 40px;
+}
+.js{
+    background-color: rgba(255, 223, 0, 0.05);
+    width: 350px;
+    height: 320px;
+    margin-left: 20px;
+    margin-top: 2px;
+}
+.js-paragraph{
+    margin-left: 40px;
+}
+.js-background img{
+        width: 100px;
+        height: 100px;
+        margin: 20px 30px ;
+}
+.java-heading{
+    margin-left: 30px;
+}
+.java-paragraph{
+    margin-left: 30px;
+}
+.java-learn{
+    margin-left: 30px;
+}
