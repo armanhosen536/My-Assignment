@@ -5,7 +5,7 @@
 
 .developer-container{
     width: 1520px;
-    height: 652px;
+    height: 750px;
     margin: 0 auto;
     
     background-image: url("../assets/Hero-bg.png");
@@ -54,12 +54,17 @@
 
 
  /* start first section in second page */
+.second-page{
+    /* background-color:rgba(13, 19, 33, 0.02); */
+}
+
 .main-contain{
     width: 1140px;
-    height: 1000px;
+    height: 1050px;
     margin: 0 auto;
     margin-top: 15px;
-    background-color:rgba(13, 19, 33, 0.02);
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.02);
 }
 
 
@@ -69,8 +74,7 @@
     justify-content: center;
     align-items: center;
     margin-top: 20px;
-    background-color: rgb(255, 255, 255)
-    rgba(255, 255, 255, 0);
+   
 }
 .title-contain h2{
     color: rgb(13, 19, 33);
@@ -86,10 +90,13 @@
     
 }
 .first-section{
-    width: 100%;
+    width: 96%;
+    height: 250px;
     display: flex;
-    color: rgb(255, 255, 255)
-    rgba(255, 255, 255, 0);
+    border-radius: 16px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    background-color: white;
 }
 .first-title{
     width:50%;
@@ -126,9 +133,13 @@
 
 .second-section{
     display: flex;
-    background-color: rgb(255, 255, 255)
-    rgba(255, 255, 255, 0);
-    margin-top: 48px;
+    border-radius: 16px;
+    height: 250px;
+    width: 96%;
+    margin: 0 auto;
+    display: flex;
+    background-color: white;
+  
 
 }    
 .second-image{
@@ -137,6 +148,7 @@ margin-left: 10px;
 }
 .second-title{
     margin-right: 200px;
+   
 }
 .second-title .second-heading{
     font-size: 24px;
@@ -160,16 +172,23 @@ margin-left: 10px;
 /* end seccond section in second page */
 /* star third section in second page */
 .third-section{
-    width: 100%;
+    width: 96%;
+    height: 250px;
+    margin: 0 auto;
     display: flex;
-    background-color: rgb(255, 255, 255)
-    rgba(255, 255, 255, 0);
+    border-radius: 16px;
     margin-top: 48px;
+    border-radius: 16px;
+    margin-bottom: 50px;
+    background-color: white;
+
+   
 }
 .third-title{
     width:50%;
-    height: 235px;
+    height: 220px;
     margin-top: 10px;
+    
 }
 .third-heading{
     
@@ -195,4 +214,13 @@ margin-left: 10px;
 }
 .third-image img{
     margin-left: 200px;
+}
+.first-box{
+ 
+}
+.first-box{
+  
+}
+.third-box{
+
 }
