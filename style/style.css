@@ -58,10 +58,7 @@
     width: 1140px;
     height: 780px;
     margin: 0 auto;
-    left: 148px;
-    right: 152px;
-    top: 857px;
-    bottom: 2993px;
+    margin-top: 15px;
     border: 2px solid red;
 }
 .title-contain{
