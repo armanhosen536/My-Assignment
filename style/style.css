@@ -1,7 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+/* font-family: Azeret Mono; */
+
+/* start first section */
 
 .developer-container{
-    width: 1440px;
-height: 652px;
-border: 2px solid red;
-background-image: url("../assets/Hero-bg.png");
+    width: 1520px;
+    height: 652px;
+    margin: 0 auto;
+    
+    background-image: url("../assets/Hero-bg.png");
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 40px;
+
+}
+.contain{
+    margin-top: 46px;
+}
+.sub-title{
+    color: rgb(13, 19, 33);
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 50px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.sub-title p{
+    color: rgb(13, 19, 33);
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.btn-contain{
+    width: 130px;
+    height: 45px;
+    border-radius: 8px;
+    background: rgb(13, 19, 33);
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-top: 30px;
 }
