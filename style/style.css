@@ -463,3 +463,18 @@ text-align: center;
     margin-left: 230px;
 
 }
+.Submit{
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    height: 40px;
+    width: 100px;
+   border-left: 1000px;
+}
+.submit-btn{
+    margin-top: 20px;
+   margin-left: 600px;
+}
