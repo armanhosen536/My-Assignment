@@ -53,20 +53,24 @@
 /* end first section */
 
 
-
+ /* start first section in second page */
 .main-contain{
     width: 1140px;
-    height: 780px;
+    height: 1000px;
     margin: 0 auto;
     margin-top: 15px;
-    border: 2px solid red;
+    background-color:rgba(13, 19, 33, 0.02);
 }
+
+
 .title-contain{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     margin-top: 20px;
+    background-color: rgb(255, 255, 255)
+    rgba(255, 255, 255, 0);
 }
 .title-contain h2{
     color: rgb(13, 19, 33);
@@ -82,9 +86,10 @@
     
 }
 .first-section{
-    border: 2px solid red;
     width: 100%;
-    display: flex
+    display: flex;
+    color: rgb(255, 255, 255)
+    rgba(255, 255, 255, 0);
 }
 .first-title{
     width:50%;
@@ -105,10 +110,9 @@
 }
 .first-btn .button{
     box-sizing: border-box;
-
-opacity: 0.7;
-width: 100px;
-height: 30px;
+    opacity: 0.7;
+    width: 100px;
+    height: 30px;
 }
 .first-image{
     width: 50%;
@@ -117,4 +121,78 @@ height: 30px;
 .first-image img{
     margin-left: 200px;
 }
+/* end first section in second page */
 /* start second section in second page */
+
+.second-section{
+    display: flex;
+    background-color: rgb(255, 255, 255)
+    rgba(255, 255, 255, 0);
+    margin-top: 48px;
+
+}    
+.second-image{
+    width: 50%;
+margin-left: 10px;
+}
+.second-title{
+    margin-right: 200px;
+}
+.second-title .second-heading{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.second-title .second-paragraph{
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+}
+.second-btn .button{
+    box-sizing: border-box;
+    opacity: 0.7;
+    width: 100px;
+    height: 30px; 
+    
+}
+/* end seccond section in second page */
+/* star third section in second page */
+.third-section{
+    width: 100%;
+    display: flex;
+    background-color: rgb(255, 255, 255)
+    rgba(255, 255, 255, 0);
+    margin-top: 48px;
+}
+.third-title{
+    width:50%;
+    height: 235px;
+    margin-top: 10px;
+}
+.third-heading{
+    
+    font-size: 24px;
+    margin-top: 50px;
+}
+.third-paragraph{
+  
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0%;
+
+}
+.third-btn .button{
+    box-sizing: border-box;
+    opacity: 0.7;
+    width: 100px;
+    height: 30px;
+}
+.third-image{
+    width: 50%;
+    
+}
+.third-image img{
+    margin-left: 200px;
+}
