@@ -36,18 +36,19 @@
     letter-spacing: 0%;
     text-align: center;
 }
-.btn-contain{
+.btn{
+    
+    /* background: rgb(13, 19, 33); */
+   
+    
+    
+}
+.btm-contain{
     width: 130px;
     height: 45px;
     border-radius: 8px;
     background: rgb(13, 19, 33);
     color: rgb(255, 255, 255);
-    font-size: 12px;
-    font-weight: 600;
-    line-height: 23px;
-    letter-spacing: 0%;
-    text-align: center;
-    margin-top: 30px;
 }
 
 /* end first section */
@@ -121,6 +122,7 @@
     width: 100px;
     height: 30px;
     margin-top:15px; 
+    
 }
 .first-image{
     width: 50%;
@@ -475,6 +477,7 @@ text-align: center;
    border-left: 1000px;
 }
 .submit-btn{
-    margin-top: 20px;
-   margin-left: 600px;
+    margin-top: 50px;
+   margin-left: 550px;
+   
 }
